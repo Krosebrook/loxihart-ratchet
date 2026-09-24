@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet Memory"
+  short_description: "Capture accepted Ratchet decisions and prepare checkpoint handoffs"
+  default_prompt: "Use $ratchet-memory for this checkpoint and report evidence and unresolved gates."
