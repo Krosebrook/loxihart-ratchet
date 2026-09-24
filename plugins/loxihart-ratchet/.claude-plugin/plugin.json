@@ -1,0 +1,20 @@
+{
+  "name": "loxihart-ratchet",
+  "version": "0.1.0",
+  "description": "Checkpoint-driven engineering skills for governed AI delivery. Adapted from jaleco8/helix-skills, inspired by Shopify Helix.",
+  "author": {
+    "name": "Loxihart (Abstrekkt)",
+    "url": "https://github.com/Krosebrook"
+  },
+  "homepage": "https://github.com/Krosebrook/loxihart-ratchet",
+  "repository": "https://github.com/Krosebrook/loxihart-ratchet",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ratchet",
+    "loxihart",
+    "code-review",
+    "migration",
+    "quality-gates"
+  ]
+}
