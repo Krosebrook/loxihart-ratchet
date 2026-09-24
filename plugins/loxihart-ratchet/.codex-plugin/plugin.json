@@ -1,0 +1,38 @@
+{
+  "name": "loxihart-ratchet",
+  "version": "0.1.0",
+  "description": "Checkpoint-driven engineering skills for governed AI delivery. Adapted from jaleco8/helix-skills, inspired by Shopify Helix.",
+  "author": {
+    "name": "Loxihart (Abstrekkt)",
+    "url": "https://github.com/Krosebrook"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Loxihart Ratchet",
+    "shortDescription": "Small checkpoints. Evidence before progress.",
+    "longDescription": "Plan, implement, verify, review, and learn through bounded checkpoints that only advance once every gate passes. Portable skills with a local evidence ledger.",
+    "developerName": "Loxihart (Abstrekkt)",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Ratchet to plan and implement this change.",
+      "Review this checkpoint with Ratchet.",
+      "Resume the last Ratchet checkpoint."
+    ],
+    "brandColor": "#EC4899"
+  },
+  "homepage": "https://github.com/Krosebrook/loxihart-ratchet",
+  "repository": "https://github.com/Krosebrook/loxihart-ratchet",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "ratchet",
+    "loxihart",
+    "code-review",
+    "migration",
+    "quality-gates"
+  ]
+}
