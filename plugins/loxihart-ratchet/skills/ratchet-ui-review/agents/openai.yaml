@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet Ui Review"
+  short_description: "Compare reference and candidate UI evidence for a Ratchet checkpoi"
+  default_prompt: "Use $ratchet-ui-review for this checkpoint and report evidence and unresolved gates."
