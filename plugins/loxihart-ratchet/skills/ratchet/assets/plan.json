@@ -1,0 +1,13 @@
+{
+  "title": "Preserve pagination while replacing the data adapter",
+  "reference": "Existing adapter and its documented public API",
+  "acceptance": [
+    "First page returns the expected items and cursor",
+    "Last page returns no next cursor",
+    "Invalid cursor returns the existing typed error"
+  ],
+  "ui": false,
+  "ui_skip_reason": "Only a data adapter changes; no rendered UI or navigation is modified.",
+  "implementer_session": "record-the-actual-implementation-session",
+  "max_attempts": 3
+}
