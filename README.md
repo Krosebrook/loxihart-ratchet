@@ -43,9 +43,20 @@ For Claude Code, the repository is also a plugin marketplace:
 /plugin install loxihart-ratchet@loxihart-ratchet
 ```
 
-Invoke `/loxihart-ratchet:ratchet` in plugin mode.
+In Codex, invoke `$ratchet` after project installation. Natural-language invocation is the portable entry point.
 
-**Cowork plugin.** `cowork/ratchet/` packages the same method as a Cowork plugin with five commands (`/ratchet:start`, `plan`, `verify`, `review`, `resume`). Install it with `/plugin install ratchet@loxihart-ratchet`, or zip that folder and upload it under Personal Plugins. See [its README](cowork/ratchet/README.md). In Codex, invoke `$ratchet` after project installation. Natural-language invocation is the portable entry point.
+**Slash commands (Claude Code and Cowork).** Every skill is also a slash command; there is no separate `commands/` folder.
+
+| Step | Command |
+| --- | --- |
+| Run a change through the full loop | `/loxihart-ratchet:ratchet` |
+| Plan checkpoints only | `/loxihart-ratchet:ratchet-plan` |
+| Collect behavior evidence | `/loxihart-ratchet:ratchet-behavior` |
+| Compare UI against the reference | `/loxihart-ratchet:ratchet-ui-review` |
+| Run one independent review | `/loxihart-ratchet:ratchet-adversarial-review` |
+| Record lessons or resume | `/loxihart-ratchet:ratchet-memory` |
+
+**Cowork.** Zip `plugins/loxihart-ratchet/` and upload it under Personal Plugins, or install it from this marketplace. If you installed the earlier `ratchet` plugin, uninstall it: this marketplace maps `ratchet` to `loxihart-ratchet`, so installs made through it migrate automatically, but an uploaded `ratchet.plugin` does not.
 
 ## The loop
 

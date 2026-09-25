@@ -8,13 +8,11 @@
       "name": "loxihart-ratchet",
       "source": "./plugins/loxihart-ratchet",
       "description": "Checkpoint-driven engineering skills for governed AI delivery. Adapted from jaleco8/helix-skills, inspired by Shopify Helix."
-    },
-    {
-      "name": "ratchet",
-      "source": "./cowork/ratchet",
-      "description": "Loxihart Ratchet as a Cowork plugin: five slash commands over five checkpoint-gate skills."
     }
   ],
+  "renames": {
+    "ratchet": "loxihart-ratchet"
+  },
   "metadata": {
     "description": "Checkpoint-driven engineering skills for governed AI delivery. Adapted from jaleco8/helix-skills, inspired by Shopify Helix."
   }
