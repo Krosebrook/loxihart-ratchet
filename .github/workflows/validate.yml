@@ -1,7 +1,9 @@
 name: Validate
+# Manual only: this private repo's Actions billing blocks runs, so push and
+# pull_request triggers only produced failed runs. Re-add them once billing
+# is resolved. Run from the Actions tab with "Run workflow".
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
