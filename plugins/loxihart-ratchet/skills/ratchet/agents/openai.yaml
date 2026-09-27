@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet"
+  short_description: "Deliver migrations, refactors, and substantial features through "
+  default_prompt: "Use $ratchet for this checkpoint and report evidence and unresolved gates."

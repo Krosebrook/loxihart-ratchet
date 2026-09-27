@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet Adversarial Review"
+  short_description: "Independently challenge a Ratchet checkpoint for defects, architec"
+  default_prompt: "Use $ratchet-adversarial-review for this checkpoint and report evidence and unresolved gates."

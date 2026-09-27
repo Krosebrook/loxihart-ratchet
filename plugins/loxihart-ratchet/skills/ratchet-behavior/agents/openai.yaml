@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet Behavior"
+  short_description: "Verify a Ratchet checkpoint against observable acceptance criteria"
+  default_prompt: "Use $ratchet-behavior for this checkpoint and report evidence and unresolved gates."

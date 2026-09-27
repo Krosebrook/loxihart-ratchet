@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ratchet Plan"
+  short_description: "Break a migration, refactor, or feature into observable Ratchet ch"
+  default_prompt: "Use $ratchet-plan for this checkpoint and report evidence and unresolved gates."
