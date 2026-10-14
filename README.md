@@ -10,7 +10,7 @@ A portable engineering workflow for AI coding agents. Like a ratchet, work only 
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-EC4899)
 ![Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-334155)
-![Version](https://img.shields.io/badge/version-0.1.0-334155)
+![Version](https://img.shields.io/badge/version-0.1.0--loxihart.2-334155)
 
 </div>
 

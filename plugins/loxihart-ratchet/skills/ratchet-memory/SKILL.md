@@ -4,7 +4,7 @@ description: Capture accepted Ratchet decisions and prepare checkpoint handoffs.
 license: MIT
 metadata:
   author: Loxihart (Abstrekkt); upstream jaleco8/helix-skills
-  version: "0.1.0"
+  version: "0.1.0-loxihart.2"
 ---
 
 # Durable checkpoint memory
